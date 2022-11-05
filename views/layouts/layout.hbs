@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{nombreSitio}} | {{titulo}}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="{{clase}}">
+
+
+    <header>
+        <div class="navegacion">
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-between align-items-center py-4">
+                    <div class="col-md-4 .col-6">
+                        <a href="/">
+                            <img src="/img/logo.svg" alt="sitio-logo">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <nav class="mt-5 mt-md-0 nav justify-content-center justify-content-md-end">
+                            <a href="/nosotros" class="nav-link">Nosotros</a>
+                            <a href="/viajes" class="nav-link">Viajes</a>
+                            <a href="/testimoniales" class="nav-link">Testimonios</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    {{{body}}}
+
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <nav class="nav footer justify-content-center justify-content-md-start">
+                    <a href="/nosotros" class="nav-link">Nosotros</a>
+                    <a href="/viajes" class="nav-link">Viajes</a>
+                    <a href="/testimoniales" class="nav-link">Testimonios</a>
+                </nav>
+            </div>
+            <div class="col">
+                <p class="copyright text-center text-md-right">|Todos los derechos Reservados {{{fecha}}}|</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
